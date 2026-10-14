@@ -36,4 +36,18 @@ O pipeline de extração é público. O CI reproduz o dataset inteiro a partir d
 
 Correções de dado exigem fonte oficial: documento do MEC ou CNE, com página. O CI aplica a regra automaticamente. Comece pelas [good first issues](https://github.com/bncc-dev/bncc-dados/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) ou abra uma [discussão](https://github.com/bncc-dev/bncc-dados/discussions).
 
-Mantido pela [Profy](https://profy.com.br). Contato: contato@bncc.dev
+Mantido pela [Profy Tecnologias Educacionais Ltda](https://profy.com.br) (CNPJ 53.669.787/0001-45, Brasília). Contato: contato@bncc.dev · [Sobre o projeto](https://bncc.dev/sobre/)
+
+---
+
+## In English
+
+**Brazil's National Common Curricular Base (BNCC) as open infrastructure.** The BNCC defines what every student in Brazilian basic education has the right to learn, and it is mandatory for every school in the country. The Ministry of Education publishes it as a 600-page PDF and spreadsheets. Here it is structured data, verified character by character against the official documents and traceable record by record.
+
+| Repository | What it is |
+|---|---|
+| **[bncc-dados](https://github.com/bncc-dev/bncc-dados/blob/main/README.en.md)** | The canonical dataset: 1,721 learning objectives in JSON, SQLite and CSV, each with its official source and page. Reproducible extraction pipeline, run in CI on every change. |
+| **[bncc-pacotes](https://github.com/bncc-dev/bncc-pacotes/blob/main/README.en.md)** | The dataset in one line: npm and PyPI packages, plus an MCP server that gives AI agents access to the curriculum. |
+| **[bncc-benchmark](https://github.com/bncc-dev/bncc-benchmark)** | Open benchmark of LLM hallucination about the BNCC, with methodology and raw data (in Portuguese). The held-out set stays private to avoid contamination. |
+
+Data under CC BY 4.0, code under MIT, no sign-up and no API key. What is open stays open. Maintained by [Profy Tecnologias Educacionais Ltda](https://profy.com.br) (CNPJ 53.669.787/0001-45, Brasília, Brazil). Contact: contato@bncc.dev · [About the project](https://bncc.dev/en/about/)
